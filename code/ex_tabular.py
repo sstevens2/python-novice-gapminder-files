@@ -23,7 +23,7 @@ As well as the read_csv function for reading data from a file, Pandas provides a
 Hint: You will need to check the head of the file and skip the first few lines.
 Use the help to find the argument that will let you skip these lines.
 2. Check your results by printing the first 5 lines of `gff` data frame. Does it look right? Your column names should be numbers from 0 to 8.  If not, look into the argument called `header` to see if you can fix it.
-Bonus: Change the code to read in your table to specify the column names.
+Bonus: Change the code to read in your table to specify the column names. Hint: The column names should be 'seqname','source','features','start','end','score','strand','frame','attribute'.
  
  
  
